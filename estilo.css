@@ -1,0 +1,911 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+    background-color: rgb(0, 61, 13);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------- Css Pg Historia ----------------*/
+
+img#Logo{
+  padding: 10px;
+  display: inline;
+}
+
+header > h1{
+  display: inline;
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  margin: 0;
+  color: rgb(190, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.9em;
+}
+
+
+
+main#historia{
+  display: block;
+  margin:0 auto;
+  border: 0;
+  width:100%;
+  max-width:80%;
+  height: auto;
+  min-height: 100%;
+  padding: 15px 30px 30px 30px;
+  background-color: rgb(240,240,240);
+  box-sizing: border-box;
+}
+
+main#historia > h1{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(190, 0, 0);
+  font-size: 2em;
+}
+
+
+main#historia > h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(190, 0, 0);
+}
+
+main#historia > h3{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  text-decoration: underline;
+  color: rgb(190, 0, 0);
+  padding: 15px;
+}
+
+main#historia > p{
+    display: block;
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    Text-indent: 20px;
+    font-size: 1.1em;
+}
+
+@media(min-width:739px){
+  header{
+    width: 100%;
+    height: 88px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  nav{
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  nav > a{
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    box-sizing: border-box;
+  }
+  
+  a:hover{
+    background-color: rgba(204, 17, 17, 0.432);
+    padding: 20px;
+    border-radius: 7px;
+    text-decoration: underline;
+  } 
+
+  img#clssc{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    padding: 15px;
+    float: left;
+    margin: 0;
+    border: 0;
+  }
+
+}
+
+@media(max-width:738px){
+  header{
+    width: 100%;
+    height: 88px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  nav{
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  nav > a{
+    margin: 0;
+    border: 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    box-sizing: border-box;
+  }
+  
+  a:hover{
+    background-color: rgba(204, 17, 17, 0.432);
+    padding: 15px;
+    border-radius: 7px;
+    text-decoration: underline;
+  } 
+
+  img#clssc{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    float: left;
+    margin: 0;
+    border: 0;
+  }
+}
+
+@media(max-width:405px){
+  header{
+    width: 100%;
+    height: 88px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  nav{
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  nav > a{
+    margin: 0;
+    border: 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    box-sizing: border-box;
+  }
+  
+  a:hover{
+    background-color: rgba(204, 17, 17, 0.432);
+    padding: 15px;
+    border-radius: 7px;
+    text-decoration: underline;
+  } 
+
+  img#clssc{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    float: left;
+    margin: 0;
+    border: 0;
+  }
+
+  main#historia > h1{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(190, 0, 0);
+    font-size: 1.8em;
+  }
+
+  footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  footer > span > p{
+    display: block;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+  }
+  
+  footer > span > a{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 15px 5px 15px;
+    color: violet;
+  }
+  
+  footer > span > a:hover{
+    background-color: rgba(204, 17, 17, 0.432);
+    padding: 5px 15px 5px 15px;
+    border-radius: 7px;
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+footer > span > p{
+  display: block;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+footer > span > a{
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 15px 5px 15px;
+  color: violet;
+}
+
+footer > span > a:hover{
+  background-color: rgba(204, 17, 17, 0.432);
+  padding: 5px 15px 5px 15px;
+  border-radius: 7px;
+  text-decoration: underline;
+  color: white;
+}
+
+/*---------------- Css Pg Personagens ----------------*/
+
+main#personagens{
+  display: block;
+  margin:0 auto;
+  border: 0;
+  width:100%;
+  max-width:80%;
+  height: auto;
+  min-height: 100%;
+  padding: 15px 30px 30px 30px;
+  background-color: rgb(240,240,240);
+  box-sizing: border-box;
+}
+
+main#personagens > h1{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(190, 0, 0);
+}
+
+img#personagem{
+  width: 100%;
+  height: 100%;
+  border: solid 1px rgb(0, 61, 13);
+}
+
+
+
+@media(min-width:1081px){
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    width: 85%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+    Box-shadow: 5px 4px 7px 2px black;
+    border-radius: 7px;
+  }
+
+
+  .cards > .icon > p{
+    display: inline-block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  }
+
+  .card-img{
+    width: 100%;
+    height: 60%;
+  }
+
+}
+
+@media(max-width:1079px){
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    width: 85%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+    Box-shadow: 5px 4px 7px 2px black;
+    border-radius: 7px;
+  }
+  
+  
+  .cards > .icon > p{
+    display: inline-block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  }
+  .card-img{
+    width: 100%;
+    height: 60%;
+  }
+
+}
+
+@media(max-width:839px){
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    width: 85%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+    Box-shadow: 5px 4px 7px 2px black;
+    border-radius: 7px;
+  }
+  
+  
+  .cards > .icon > p{
+    display: inline-block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  }
+  .card-img{
+    width: 100%;
+    height: 65%;
+  }
+
+}
+
+@media(max-width:579px){
+
+  main#personagens > h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(190, 0, 0);
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    width: 85%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+    Box-shadow: 5px 4px 7px 2px black;
+    border-radius: 7px;
+  }
+  
+  .cards > .icon > p{
+    display: inline-block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  }
+  .card-img{
+    width: 100%;
+    height: 75%;
+  }
+
+}
+
+/*---------------- Css Pg Cenas ----------------*/
+
+main#cenas{
+  display: block;
+  margin:0 auto;
+  border: 0;
+  width:100%;
+  max-width:80%;
+  height: auto;
+  min-height: 100%;
+  padding: 20px 70px 70px 70px;
+  background-color: rgb(240,240,240);
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+main#cenas > h1{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(190, 0, 0);
+  font-size: 2em;
+}
+
+
+main#cenas > section > h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(2, 6, 105);
+  font-size: 1.5em;
+}
+
+main#cenas > section > p{
+    display: block;
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    Text-indent: 20px;
+    font-size: 1.2em;
+}
+
+section{
+  padding: 20px;
+  height: auto;
+  background-color: rgb(193, 196, 197);
+  border-radius: 10px;
+  Box-shadow: 5px 4px 7px 2px black;
+  margin: 0px 0px 50px 0px;
+  text-align: justify;
+}
+
+iframe{
+  border: solid 2px rgb(0, 61, 13);
+  padding: 0;
+  margin: 0;
+}
+
+@media(min-width:978px){
+  .play{
+    margin: 0 auto;
+    width: 587px;
+    height: 350px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:977px){
+  .play{
+    margin: 0 auto;
+    width: 487px;
+    height: 300px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:887px){
+  .play{
+    margin: 0 auto;
+    width: 387px;
+    height: 230px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:750px){
+  .play{
+    margin: 0 auto;
+    width: 287px;
+    height: 160px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:600px){
+  main#cenas{
+    display: block;
+    margin:0 auto;
+    border: 0;
+    width:100%;
+    max-width:80%;
+    height: auto;
+    min-height: 100%;
+    padding: 20px 40px 40px 40px;
+    background-color: rgb(240,240,240);
+    box-sizing: border-box;
+  }
+
+  .play{
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:500px){
+  main#cenas{
+    display: block;
+    margin:0 auto;
+    border: 0;
+    width:100%;
+    max-width:80%;
+    height: auto;
+    min-height: 100%;
+    padding: 20px 30px 30px 30px;
+    background-color: rgb(240,240,240);
+    box-sizing: border-box;
+  }
+
+  main#cenas > h1{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(190, 0, 0);
+    font-size: 1.9em;
+  }
+  
+  
+  main#cenas > section > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(2, 6, 105);
+    font-size: 1.4em;
+  }
+  
+  main#cenas > section > p{
+      display: block;
+      padding: 10px 15px 10px 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      Text-indent: 20px;
+      font-size: 1.1em;
+  }
+
+  .play{
+    margin: 0 auto;
+    width: 200px;
+    height: 110px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:477px){
+  main#cenas{
+    display: block;
+    margin:0 auto;
+    border: 0;
+    width:100%;
+    max-width:80%;
+    height: auto;
+    min-height: 100%;
+    padding: 20px 30px 30px 30px;
+    background-color: rgb(240,240,240);
+    box-sizing: border-box;
+  }
+
+  main#cenas > h1{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(190, 0, 0);
+    font-size: 1.8em;
+  }
+  
+  
+  main#cenas > section > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(2, 6, 105);
+    font-size: 1.3em;
+  }
+  
+  main#cenas > section > p{
+      display: block;
+      padding: 10px 15px 10px 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      Text-indent: 20px;
+      font-size: 1em;
+  }
+
+  section{
+    padding: 15px;
+    height: auto;
+    background-color: rgb(193, 196, 197);
+    border-radius: 10px;
+    Box-shadow: 5px 4px 7px 2px black;
+    margin: 0px 0px 50px 0px;
+    text-align: justify;
+  }
+
+  .play{
+    margin: 0 auto;
+    width: 120px;
+    height: 95px;
+    padding: 20px;
+  }
+}
+
+/*---------------- Css Pg Trilha Sonora ----------------*/
+
+main#trilhaSonora{
+  display: block;
+  margin:0 auto;
+  border: 0;
+  width:100%;
+  max-width:80%;
+  height: auto;
+  min-height: 100%;
+  padding: 20px 70px 70px 70px;
+  background-color: rgb(240,240,240);
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+main#trilhaSonora > h1{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(190, 0, 0);
+  font-size: 2em;
+}
+
+
+main#trilhaSonora > section > h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(0, 80, 17);
+  font-size: 1.6em;
+}
+
+main#trilhaSonora > section > p{
+    color: white;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    Text-indent: 20px;
+    font-size: 1.2em;
+}
+
+section#radio{
+  padding: 15px;
+  border: solid 1px white;
+  height: auto;
+  background-image: radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+  border-radius: 15px;
+  Box-shadow: 5px 4px 7px 2px black;
+  margin: 0px 0px 50px 0px;
+  text-align: justify;
+}
+
+@media(min-width:720px){
+  section#radio{
+    padding: 15px;
+    border: solid 1px white;
+    height: auto;
+    background-image: radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+    border-radius: 15px;
+    Box-shadow: 5px 4px 7px 2px black;
+    margin: 0px 30px 50px 30px;
+    text-align: justify;
+  }
+
+  .som{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  audio{
+    border: solid 7px #3f0152;
+    background-color: #3f0152;
+    border-radius: 10px;
+    width: 60%;
+  }
+}
+
+@media(max-width:719px){
+  audio{
+    border: solid 5px #3f0152;
+    background-color: #3f0152;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  main#trilhaSonora{
+    display: block;
+    margin:0 auto;
+    border: 0;
+    width:100%;
+    max-width:80%;
+    height: auto;
+    min-height: 100%;
+    padding: 20px 40px 70px 40px;
+    background-color: rgb(240,240,240);
+    box-sizing: border-box;
+    text-align: justify;
+  }
+
+  main#trilhaSonora > section > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 80, 17);
+    font-size: 1.6em;
+  }
+  
+  main#trilhaSonora > section > p{
+      color: white;
+      margin: 10px;
+      padding: 10px 5px 10px 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      Text-indent: 20px;
+      font-size: 1em;
+  }
+}
+
+@media(min-width:381px){
+  main#trilhaSonora{
+    display: block;
+    margin:0 auto;
+    border: 0;
+    width:100%;
+    max-width:80%;
+    height: auto;
+    min-height: 100%;
+    padding: 20px 20px 70px 20px;
+    background-color: rgb(240,240,240);
+    box-sizing: border-box;
+    text-align: justify;
+  }
+
+  main#trilhaSonora > h1{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(190, 0, 0);
+    font-size: 1.8em;
+  }
+}
+
+@media(max-width:380px){
+  main#trilhaSonora{
+    display: block;
+    margin:0 auto;
+    border: 0;
+    width:100%;
+    max-width:80%;
+    height: auto;
+    min-height: 100%;
+    padding: 20px 10px 70px 10px;
+    background-color: rgb(240,240,240);
+    box-sizing: border-box;
+    text-align: justify;
+  }
+
+  audio{
+    display: flex;
+    border: solid 1px #3f0152;
+    border-radius: 20px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .som{
+    display: block;
+    margin: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  section#radio{
+    padding: 3px;
+    border: solid 1px white;
+    height: auto;
+    background-image: radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(2, 2, 100));
+    border-radius: 15px;
+    Box-shadow: 5px 4px 7px 2px black;
+    margin: 0px 0px 50px 0px;
+    text-align: justify;
+  }
+
+}
